@@ -1,0 +1,98 @@
+  
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #222629;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #86c232;
+  border-radius: 0;
+  border: 0;
+}
+a.navbar-brand {
+ color: #fff !important;
+ font-size: 1.8em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header {
+  width: 100%
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid ;
+  border-radius: 0.25rem;
+  float: right;
+  margin-top: 10px;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.bg-light {
+  background-color: #86c232 !important;
+}
+
+
+@media (min-width: 1200px) {
+.visible-ld{
+	display : none;
+}
+}
+h1 {
+	text-align: center;
+	font-size: 180%;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.nav-menu {
+	text-align: center;
+	color: white !important;
+}
+
+.boxdesign{
+  background-color: white;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  margin: 15px;
+}
+
+.headtext{
+  color: black;
+}
+.paratext{
+  color: black;
+}
+
+.nav-item li:hover, .nav-item li:focus{
+  background-color: white 0.5 ;
+}
